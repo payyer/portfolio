@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/qa.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,43 +13,46 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I'm a Frontend Developer who loves transforming designs into fast,
+              interactive web experiences — from pixel-perfect interfaces to
+              scalable e-commerce platforms.
               <br />
               <br />
-              I’m proficient in
+              I'm proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  HTML5, CSS3, JavaScript, and TypeScript{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — with a strong focus on component-based architecture and clean,
+              maintainable code.
               <br />
               <br />
-              My key areas of interest include developing
+              My key areas of interest include building
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Responsive Web Applications, UI Component Systems,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and crafting smooth user experiences that work seamlessly across all
+              devices and browsers.
               <br />
               <br />
               Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              <b className="purple"> React.js </b> and modern tools like{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">TailwindCSS</b> and{" "}
+                <b className="purple">React Query</b>
               </i>
+              {" "} and as a lifelong gamer, I'm especially drawn to interactive,
+              performance-driven web experiences.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img style={{ borderRadius: "100%", width: "80%", height: "auto" }} src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
