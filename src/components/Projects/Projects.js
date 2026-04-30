@@ -29,10 +29,8 @@ function Projects() {
               isBlog={false}
               title="Bookmedi — Full Platform"
               description="Full e-commerce platform with both customer-facing storefront (Client) and comprehensive management system (Admin). Built with ReactJS, Zustand, React Query for optimized data fetching, and reusable UI components using TailwindCSS and Shadcn UI."
-              demoLink="https://demo.bookmedi.io.vn/"
-              demoLabel="Client Demo"
-              demoLink2="https://drive.google.com/file/d/1bkpBLY2TZ79PT7qg4gAgrdSsYk2e5_U9/view"
-              demoLabel2="Admin Demo"
+              demoLink="https://bookmedi.vn/"
+              demoLabel="Demo"
             />
           </Col>
 
